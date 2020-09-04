@@ -1,0 +1,18 @@
+/* Header section */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.carousel-main {
+  width: 1140px;
+  margin: 0 auto; }
+  .carousel-main .carousel-staff {
+    margin-top: 5%; }
+    .carousel-main .carousel-staff h2 {
+      font-size: 25px; }
+    .carousel-main .carousel-staff p {
+      color: #a0a0a0;
+      line-height: 27px; }
+
+/*# sourceMappingURL=main.css.map */
