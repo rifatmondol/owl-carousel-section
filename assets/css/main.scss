@@ -1,20 +1,7 @@
-/* Header section */
-body{
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
-}
-.carousel-main{
-	width: 1140px;
-	margin: 0 auto;
-	.carousel-staff{
-		margin-top: 5%;
-		h2{
-			font-size: 25px;
-		}
-		p{
-			color: #a0a0a0;
-			line-height: 27px;
-		}
-	}
-}
+/*Start header*/
+@import"../partials/nav-section";
+/*End header*/
+
+/*Start slider*/
+@import"../partials/slider";
+/*End slider*/

@@ -1,4 +1,5 @@
-/* Header section */
+/*Start header*/
+/*Start Header section*/
 body {
   margin: 0;
   padding: 0;
@@ -10,9 +11,68 @@ body {
   .carousel-main .carousel-staff {
     margin-top: 5%; }
     .carousel-main .carousel-staff h2 {
-      font-size: 25px; }
+      font-size: 25px;
+      margin-bottom: 5px; }
+    .carousel-main .carousel-staff .progress-bar {
+      width: 6%;
+      height: 6px;
+      display: inline-block;
+      background: #EEEEEC;
+      border-radius: 10px; }
+      .carousel-main .carousel-staff .progress-bar:after {
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 6px;
+        display: inline-block;
+        background: #14ADF3;
+        border-radius: 10px; }
     .carousel-main .carousel-staff p {
       color: #a0a0a0;
-      line-height: 27px; }
+      line-height: 27px;
+      font-size: 15px; }
+
+/*End header section*/
+/*End header*/
+/*Start slider*/
+/*start slider section*/
+.carousel-main .full-staff-section {
+  display: flex;
+  margin-top: 6%; }
+  .carousel-main .full-staff-section .staff-item {
+    width: 85%;
+    margin: 0 25px; }
+    .carousel-main .full-staff-section .staff-item img {
+      width: 165px;
+      height: 165px;
+      border-radius: 50%; }
+    .carousel-main .full-staff-section .staff-item h4 {
+      margin-bottom: 5px; }
+    .carousel-main .full-staff-section .staff-item span {
+      font-size: 12px;
+      color: #929292; }
+    .carousel-main .full-staff-section .staff-item p {
+      color: #4e4d4d;
+      line-height: 25px;
+      width: 90%; }
+  .carousel-main .full-staff-section .ml-0 {
+    margin-left: 0; }
+  .carousel-main .full-staff-section .mr-0 {
+    margin-right: 0; }
+  .carousel-main .full-staff-section .owl-nav {
+    position: absolute;
+    top: -100px;
+    right: -50px; }
+    .carousel-main .full-staff-section .owl-nav .owl-prev:focus, .carousel-main .full-staff-section .owl-nav .owl-next:focus {
+      outline: none; }
+    .carousel-main .full-staff-section .owl-nav .fa-long-arrow-left, .carousel-main .full-staff-section .owl-nav .fa-long-arrow-right {
+      background: #ddd !important;
+      padding: 12px 20px !important; }
+      .carousel-main .full-staff-section .owl-nav .fa-long-arrow-left:hover, .carousel-main .full-staff-section .owl-nav .fa-long-arrow-right:hover {
+        background: #14ADF3 !important;
+        color: #fff; }
+
+/*end slider section*/
+/*End slider*/
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+$(document).ready(function(){
+	$('.owl-carousel').owlCarousel({
+		items: 4,
+		autoplay: false,
+		loop: true,
+		margin: 10,
+		nav: true,
+		navText: ["<i class='fa fa-long-arrow-left'>", "<i class='fa fa-long-arrow-right'>"]
+	})
+
+	$('.owl-carousel').find('.owl-nav').removeClass('disabled');
+		$('.owl-carousel').on('changed.owl.carousel', function(event){
+			$(this).find('.owl-nav').removeClass('disabled');
+		});
+});

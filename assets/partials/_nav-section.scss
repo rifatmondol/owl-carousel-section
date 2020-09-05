@@ -1,0 +1,39 @@
+/*Start Header section*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.carousel-main{
+	width: 1140px;
+	margin: 0 auto;
+	.carousel-staff{
+		margin-top: 5%;
+		h2{
+			font-size: 25px;
+			margin-bottom: 5px;
+		}
+		.progress-bar{
+			width: 6%;
+			height: 6px;
+			display:inline-block;
+			background: #EEEEEC;
+			border-radius: 10px;
+			&:after{
+				content: "";
+				position:absolute;
+				width: 55px;
+				height: 6px;
+				display: inline-block;
+				background: #14ADF3;
+				border-radius: 10px;
+			}
+		}
+		p{
+			color: #a0a0a0;
+			line-height: 27px;
+			font-size: 15px;
+		}
+	}
+}
+/*End header section*/
